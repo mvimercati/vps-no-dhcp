@@ -28,7 +28,7 @@ Procedure:
 
   ![](VPS4.PNG)
   
-5. Set a breakpoint on this line (click on the line's number) and the click and the real button. If you correctly set the breakpoint you should reach this line very fast:
+5. Set a breakpoint on this line (click on the line's number) and then click on the Apply button to trigger the event. If you correctly set the breakpoint you should reach this line very fast:
 
   ![](VPS5.PNG)
   
