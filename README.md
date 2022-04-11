@@ -19,7 +19,7 @@ Procedure:
 
   ![](VPS2.PNG)
   
-3. The Analyze tool jumps to the HTML code associated to the Apply button. We are interested in the events associated to this button (click on 'event' label). Two events are available, one handles the animation of the button; the jquery one handles the interesting things (click on the _jump_ icon).
+3. The Analyze tool jumps to the HTML code associated to the Apply button. We are interested in the events associated to this button (click on 'event' label). Two events are available, one handles the animation of the button (Bubbling); the other one (JQuery) handles the interesting things (click on the _jump_ icon).
 
   ![](VPS3.PNG)
   
