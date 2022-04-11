@@ -7,7 +7,7 @@ The procedure is based on injection of parameters in the web interface of the VP
 
 The following procedure have been tested on VPS with firmware XS_3.9.00.05.
 
-The http session expires in fe minutes, be quick!
+The http session expires in few minutes, be quick!
 
 Procedure:
 
