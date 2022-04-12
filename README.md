@@ -15,11 +15,11 @@ Procedure:
 
   ![](VPS1.PNG)
  
-2. Start the 'Analyze' tool within your web browser (I personally use Firefox) and catch the Apply button inner hook, as in figure:
+2. Start the 'Analyze' tool within your web browser (I personally use Firefox) and catch the _Apply_ button inner hook, as in figure:
 
   ![](VPS2.PNG)
   
-3. The Analyze tool jumps to the HTML code associated to the Apply button. We are interested in the events associated to this button (click on 'event' label). Two events are available, one handles the animation of the button (Bubbling); the other one (JQuery) handles the interesting things (click on the _jump_ icon).
+3. The Analyze tool jumps to the HTML code associated to the _Apply_ button. We are interested in the events associated to this button (click on 'event' label). Two events are available, one handles the animation of the button (Bubbling); the other one (JQuery) handles the interesting things (click on the _jump_ icon).
 
   ![](VPS3.PNG)
   
@@ -28,7 +28,7 @@ Procedure:
 
   ![](VPS4.PNG)
   
-5. Set a breakpoint on this line (click on the line's number) and then click on the Apply button to trigger the event. If you correctly set the breakpoint you should reach this line very fast:
+5. Set a breakpoint on this line (click on the line's number) and then click on the _Apply_ button to trigger the event. If you correctly set the breakpoint you should reach this line very fast:
 
   ![](VPS5.PNG)
   
