@@ -5,8 +5,10 @@ On this router DHCP server cannot be disabled; the only trick available was to s
 
 The procedure is based on injection of parameters in the web interface of the VPS. Fortunatelly the VPS backend already implements the possibility to enable or disable the DHCP server, but actually the web interface does not allow this setting. Being most of the input validation on client side (JS running in the browser), it is possible to force writing the disable bits of the DHCP server (main LAN and Guest LAN).
 
-The following procedure have been tested on VPS with firmware XS_3.9.00.05.
+_This procedure is provided "as is", without warranty of any kind. In no event shall the authors be liable for any claim, damages or other liability._
 
+Anyway if something goes wrong you can always force a factory reset of the VPS.
+The following procedure have been tested on VPS with firmware XS_3.9.00.05.
 The http session expires in few minutes, be quick!
 
 Procedure:
