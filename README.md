@@ -50,6 +50,6 @@ Procedure:
 
   ![](VPS10.PNG)
 
-10. Reload the IPv4 configuration page. Some times may be required by the router to apply changes, networks may be disconnected, so be prepared with a static IP address for your client or a brand new DHCP server :)
+10. Reload the IPv4 configuration page. Some time may be required by the router to apply changes, networks may be disconnected, so be prepared with a static IP address for your client or a brand new DHCP server :)
 
 
