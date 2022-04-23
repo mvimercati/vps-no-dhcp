@@ -34,13 +34,13 @@ Procedura:
 
   ![](VPS4.PNG)
   
-5. Inserite un breakpoint in questa linea di codice (Per farlo cliccate sul numero di riga). Successivamente modificate uno dei parametri della pagina web (l'ultima cifra del DHCP secondario è una buona idea) e cliccate sul tasto _Applica_ della pagina web per scatenare l'esecuzione della funzione. Se avete impostato correttamente il breakpoint dovreste vedere l'esecuzione fino al punto a questo punto:
+5. Inserite un breakpoint in questa linea di codice (Per farlo cliccate sul numero di riga). Successivamente modificate uno dei parametri della pagina web (Ad esempio l'ultima cifra del range del DHCP secondario) e cliccate sul tasto _Applica_ della pagina web per scatenare l'esecuzione della funzione. Se avete impostato correttamente il breakpoint dovreste vedere l'esecuzione fino al punto a questo punto:
 
   ![](VPS5.PNG)
   
-6. If you notice some lines before there is a piece of code that fills the _data_format_ structure, which is passed to _dataBatchSend_ function. This structure contains all the validated inputs present on the web form, all validated by the above code, such as DHCP Start/End IP, Subnet mask... You can also notice _settingsLanDHCP_ and _settingsLanDHCP_guest_
+6. Se notate qualche riga sopra c'è il codice che riempie la struttura _data_format_ che viene passata alla funzione _dataBatchSend_. Questa struttura contiene tutti gli input validati della web form, come il range di indirizzi dei DHCP, la net mask, etch. Tra questi ci sono anche i parametri _settingsLanDHCP_ e _settingsLanDHCP_guest_
 
-   You can use the JS console to inspect that structure. Well, actually it's an array of objects. For example you can inspect the content of some elements using the _alert_ function, equivalent to old glory _printf_ :)
+   Possiamo usare la console JS per ispezionare la struttura, che in realtà è un array di oggetti. Ad esempio possiamo guardare il contenuto utilizzando la funzione _alert_.
 
   ![](VPS7.PNG)
 
