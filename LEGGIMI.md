@@ -34,7 +34,7 @@ Procedura:
 
   ![](VPS4.PNG)
   
-5. Inserite un breakpoint in questa linea di codice (Per farlo cliccate sul numero di riga) e successivamente cliccate sul tasto _Applica_ della pagina web per scatenare l'esecuzione della funzione. Se avete impostato correttamente il breakpoint dovreste vedere l'esecuzione fino al punto a questo punto:
+5. Inserite un breakpoint in questa linea di codice (Per farlo cliccate sul numero di riga). Successivamente modificate uno dei parametri della pagina web (l'ultima cifra del DHCP secondario è una buona idea) e cliccate sul tasto _Applica_ della pagina web per scatenare l'esecuzione della funzione. Se avete impostato correttamente il breakpoint dovreste vedere l'esecuzione fino al punto a questo punto:
 
   ![](VPS5.PNG)
   
