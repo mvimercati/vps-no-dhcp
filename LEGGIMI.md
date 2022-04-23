@@ -40,23 +40,23 @@ Procedura:
   
 6. Se notate qualche riga sopra c'è il codice che riempie la struttura _data_format_ che viene passata alla funzione _dataBatchSend_. Questa struttura contiene tutti gli input validati della web form, come il range di indirizzi dei DHCP, la net mask, etch. Tra questi ci sono anche i parametri _settingsLanDHCP_ e _settingsLanDHCP_guest_
 
-   Possiamo usare la console JS per ispezionare la struttura, che in realtà è un array di oggetti. Ad esempio possiamo guardare il contenuto utilizzando la funzione _alert_.
+   Possiamo usare la console JS per ispezionare la struttura, che in realtà è un array di oggetti. Ad esempio possiamo guardare il contenuto di un elemento utilizzando la funzione _alert_.
 
   ![](VPS7.PNG)
 
-7. Now it's the turn to modify the DHCP enable parameters: _settingsLanDHCP_ and _settingsLanDHCP_guest_: in the JS console write "0" to the third and fourth object's value of the array to disable both main and guest DHCP servers
+7. Adesso possiamo modificare i parametri che abilitano e disabilitano il DHCP server: _settingsLanDHCP_ e _settingsLanDHCP_guest_: nella console JS bisogna scrivere 0 nel campo _value_ del terzo e quarto elemento dell'array.
 
   ![](VPS8.PNG)
   
-8. Now click the _Continue execution_ icon in the debugger controls panel
+8. Ora bisogna riprendere l'esecuzione cliccando sull'apposito tasto di controllo del debugger
 
   ![](VPS9.PNG)
   
-9. The settings are confermed and your VPS DHCP server should be gone!
+9. Le nuove impostazioni sono ora confermate dal router. Il server DHCP dovrebbe esser disabilitato!
 
   ![](VPS10.PNG)
 
-10. Reload the IPv4 configuration page. Some time may be required by the router to apply changes, networks may be disconnected, so be prepared with a static IP address for your client or a brand new DHCP server :)
+10. Ricaricate la pagina per avere conferma. Potrebbe servere un po' di tempo perché il router applichi le nuove impostazioni, e la rete potrebbe per questo cadere. Siate pronti con un indirizzo IP statico o un nuovo DHCP server (Come Pi-hole) :)
 
 
 
