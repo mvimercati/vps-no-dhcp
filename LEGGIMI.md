@@ -25,16 +25,16 @@ Procedura:
 
   ![](VPS2.PNG)
   
-3. The Analyze tool jumps to the HTML code associated to the _Apply_ button. We are interested in the events associated to this button (click on 'event' label). Two events are available, one handles the animation of the button (Bubbling); the other one (JQuery) handles the interesting things (click on the _jump_ icon).
+3. A questo punto il tool salta alla porzione di codice HTML responsabile del tasto _Applica_. Noi siamo interessati agli eventi associati al tasto, per cui bisogna cliccare sull'etichetta 'event'. Due eventi sono agganciati al tasto: uno gestisce probabilmente l'animazione (Bubbling), mentre l'altro (JQuery) gestisce le cose che interessano a noi (Cliccate sull'icona per raggiungere il codice del gestore dell'evento).
 
   ![](VPS3.PNG)
   
-4. The JS _applyButton on click_ function is reached, but the 'send to the server' code is about 400 hundreds lines later... after a lot of input validation code, that we have to cheat :)
-  Scroll down until function _dataBatchSend_ is found:
+4. Viene raggiunta la funzione JS di pressione del tasto (_on click_), dove dopo circa 400 righe di codice JS vengono effettivamente inviati i dati della form al server. Queste righe di codice contengono tutta la validazione degli input, che dobbiamo in qualche modo bypassare :)
+  Scendete fino ad incontrare la funzione _dataBatchSend_:
 
   ![](VPS4.PNG)
   
-5. Set a breakpoint on this line (click on the line's number) and then click on the _Apply_ button to trigger the event. If you correctly set the breakpoint you should reach this line very fast:
+5. Inserite un breakpoint in questa linea di codice (Per farlo cliccate sul numero di riga) e successivamente cliccate sul tasto _Applica_ della pagina web per scatenare l'esecuzione della funzione. Se avete impostato correttamente il breakpoint dovreste vedere l'esecuzione fino al punto a questo punto:
 
   ![](VPS5.PNG)
   
