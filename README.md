@@ -1,4 +1,4 @@
-# Vodafone Power Station (SERCOMM VOX30) disable DHCP procedure
+# Vodafone Power Station (SERCOMM VOX30) - disable DHCP server procedure ([Italiano](/LEGGIMI.md))
 
 The scope of this procedure is to disable the internal DHCP server running on the Vodafone Power Station (VPS) distributed in Italy by the provider: the SERCOMM VOX30 has been marketed under different names, which are:
 * Vodafone Power Station (SHG3000, distributed in Italy)
@@ -34,7 +34,7 @@ Procedure:
 
   ![](VPS4.PNG)
   
-5. Set a breakpoint on this line (click on the line's number). Then modify one of the form's values (e.g last digit of the secondary DHCP valid range) and then click on the _Apply_ button to trigger the event. If you correctly set the breakpoint you should reach this line very fast:
+5. Set a breakpoint on this line (click on the line's number). Then modify one of the form's inputs (e.g last digit of the secondary DHCP range) and then click on the _Apply_ button to trigger the event. If you correctly set the breakpoint you should reach this line very fast:
 
   ![](VPS5.PNG)
   
