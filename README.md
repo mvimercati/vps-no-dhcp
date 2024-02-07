@@ -59,3 +59,6 @@ Procedure:
 10. Reload the IPv4 configuration page. Some time may be required by the router to apply changes, networks may be disconnected, so be prepared with a static IP address for your client or a brand new DHCP server :)
 
 
+Vodafone WiFi 6 Station
+
+Un utente ha confermato che una procedura simile funziona anche su questo modem. Vedere la issue #3
